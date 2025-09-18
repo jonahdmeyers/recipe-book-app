@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sidebar-w: 300px;
+}
+body {
+  @apply bg-white text-zinc-900 antialiased;
+}
+.dark body {
+  @apply bg-zinc-950 text-zinc-50;
+}
