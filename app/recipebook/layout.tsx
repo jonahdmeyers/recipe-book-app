@@ -1,24 +1,14 @@
-import { ReactNode } from 'react';
-import { RecipeBookSidebar } from '@/components/RecipeBookSidebar';
+import '../globals.css'
+import type { ReactNode } from 'react'
 
-export default function RecipeBookLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export const metadata = { title: 'Recipe Book', description: 'Personal recipe organizer' }
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="flex">
-        <div className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0">
-          <RecipeBookSidebar />
-        </div>
-
-        <div className="md:pl-64 flex flex-col flex-1">
-          <main className="flex-1">
-            {children}
-          </main>
-        </div>
-      </div>
-    </div>
-  );
+    <html lang="en">
+      <body>
+        {children}
+      </body>
+    </html>
+  )
 }

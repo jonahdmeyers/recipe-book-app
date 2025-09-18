@@ -1,22 +1,17 @@
-"use client";
+import { initTRPC } from "@trpc/server";
+import superjson from "superjson";
+import { prisma } from "@/lib/prisma";
 
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { createTRPCReact } from "@trpc/react-query";
-import { useState } from "react";
+const t = initTRPC.create({
+  transformer: superjson,
+});
 
-// For now, we'll create a simple placeholder
-export const api = createTRPCReact<any>();
+export const createTRPCRouter = t.router;
+export const publicProcedure = t.procedure;
 
-export default function TRPCProvider({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  const [queryClient] = useState(() => new QueryClient());
-
-  return (
-    <QueryClientProvider client={queryClient}>
-      {children}
-    </QueryClientProvider>
-  );
-}
+// Simple context for now
+export const createTRPCContext = async () => {
+  return {
+    prisma,
+  };
+};
