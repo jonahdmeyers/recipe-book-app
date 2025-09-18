@@ -1,34 +1,51 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/webpack-c8441f2d519541e3.js",
-      "static/chunks/fd9d1056-719ba43c4797afae.js",
-      "static/chunks/117-39237153a721b6f4.js",
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-8b18fc9dcae3a0fc.js",
+      "static/chunks/117-e01ac3c7cb6e0eb0.js",
       "static/chunks/main-app-d88e9cd3682212a9.js",
-      "static/chunks/app/_not-found/page-b151b2f4513ec6a3.js"
+      "static/chunks/app/_not-found/page-db892bb81dbfb82a.js"
     ],
     "/layout": [
-      "static/chunks/webpack-c8441f2d519541e3.js",
-      "static/chunks/fd9d1056-719ba43c4797afae.js",
-      "static/chunks/117-39237153a721b6f4.js",
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-8b18fc9dcae3a0fc.js",
+      "static/chunks/117-e01ac3c7cb6e0eb0.js",
       "static/chunks/main-app-d88e9cd3682212a9.js",
-      "static/css/d7c430dd820eb9a2.css",
-      "static/chunks/298-a52a61256ad5612b.js",
-      "static/chunks/app/layout-adc6f213ab2fd91e.js"
-    ],
-    "/recipebook/page": [
-      "static/chunks/webpack-c8441f2d519541e3.js",
-      "static/chunks/fd9d1056-719ba43c4797afae.js",
-      "static/chunks/117-39237153a721b6f4.js",
-      "static/chunks/main-app-d88e9cd3682212a9.js",
-      "static/chunks/app/recipebook/page-cb34342590b2d2a7.js"
+      "static/css/f02f164780c1d61d.css",
+      "static/chunks/298-d82faf676fa44410.js",
+      "static/chunks/app/layout-51514812064a3177.js"
     ],
     "/page": [
-      "static/chunks/webpack-c8441f2d519541e3.js",
-      "static/chunks/fd9d1056-719ba43c4797afae.js",
-      "static/chunks/117-39237153a721b6f4.js",
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-8b18fc9dcae3a0fc.js",
+      "static/chunks/117-e01ac3c7cb6e0eb0.js",
       "static/chunks/main-app-d88e9cd3682212a9.js",
-      "static/chunks/app/page-edb9feec66061a0a.js"
+      "static/chunks/app/page-0a8b9a7b052e6eac.js"
+    ],
+    "/recipebook/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-8b18fc9dcae3a0fc.js",
+      "static/chunks/117-e01ac3c7cb6e0eb0.js",
+      "static/chunks/main-app-d88e9cd3682212a9.js",
+      "static/chunks/216-eaca33d47269bb64.js",
+      "static/chunks/app/recipebook/page-96864054797a30d6.js"
+    ],
+    "/recipebook/layout": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-8b18fc9dcae3a0fc.js",
+      "static/chunks/117-e01ac3c7cb6e0eb0.js",
+      "static/chunks/main-app-d88e9cd3682212a9.js",
+      "static/chunks/216-eaca33d47269bb64.js",
+      "static/chunks/app/recipebook/layout-70e2d626c5c684af.js"
+    ],
+    "/recipebook/new/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-8b18fc9dcae3a0fc.js",
+      "static/chunks/117-e01ac3c7cb6e0eb0.js",
+      "static/chunks/main-app-d88e9cd3682212a9.js",
+      "static/chunks/216-eaca33d47269bb64.js",
+      "static/chunks/app/recipebook/new/page-0291a783e0701ee7.js"
     ]
   }
 }
