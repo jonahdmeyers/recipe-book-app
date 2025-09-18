@@ -16,19 +16,19 @@
       "static/chunks/298-a52a61256ad5612b.js",
       "static/chunks/app/layout-adc6f213ab2fd91e.js"
     ],
-    "/page": [
-      "static/chunks/webpack-c8441f2d519541e3.js",
-      "static/chunks/fd9d1056-719ba43c4797afae.js",
-      "static/chunks/117-39237153a721b6f4.js",
-      "static/chunks/main-app-d88e9cd3682212a9.js",
-      "static/chunks/app/page-edb9feec66061a0a.js"
-    ],
     "/recipebook/page": [
       "static/chunks/webpack-c8441f2d519541e3.js",
       "static/chunks/fd9d1056-719ba43c4797afae.js",
       "static/chunks/117-39237153a721b6f4.js",
       "static/chunks/main-app-d88e9cd3682212a9.js",
       "static/chunks/app/recipebook/page-cb34342590b2d2a7.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-719ba43c4797afae.js",
+      "static/chunks/117-39237153a721b6f4.js",
+      "static/chunks/main-app-d88e9cd3682212a9.js",
+      "static/chunks/app/page-edb9feec66061a0a.js"
     ]
   }
 }
